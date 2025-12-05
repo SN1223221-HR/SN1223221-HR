@@ -70,3 +70,5 @@
 > * 選考プロセス改善により、採用リードタイムを平均30-60日へ短縮。
 
 ---
+## 🐍 Contributions
+![Snake animation](https://github.com/SN1223221-HR/SN1223221-HR/raw/output/github-contribution-grid-snake.svg)
