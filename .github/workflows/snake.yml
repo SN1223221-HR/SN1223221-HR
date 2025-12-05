@@ -1,11 +1,8 @@
 name: Generate Snake
 
 on:
-  # 毎日深夜0時に自動実行
   schedule:
     - cron: "0 0 * * *" 
-  
-  # 手動でも実行できるようにする
   workflow_dispatch:
 
 jobs:
@@ -14,7 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      - uses: Platane/snk@v2
+      # ↓ ここを v2 から v3 に変更しました
+      - uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
